@@ -1,2 +1,6 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Force all .py files to be recognized as Python
+*.py linguist-language=Python
+
+# Mark files that should not be counted as vendored (third-party), excluded from language statistics
+# For example, if your static directory contains only frontend library files, you can exclude them like this:
+# static/* linguist-vendored
